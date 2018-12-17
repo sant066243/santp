@@ -1,0 +1,88 @@
+git add filename --> to add in staging area
+
+git rm --cached filename
+
+git rm-r --cached directory name  to remove directory
+
+git ls-files  to check the files in local repo
+
+
+git -log
+
+git log --oneline
+
+git show commitid--> to see the commit in details
+
+
+.gitignore file will ignore the files 
+
+tags cratred to alias commit id
+
+git tag -a gitignorev1 commitid  -m "comments"
+
+git tag --> to check the tags
+
+git show tag
+
+git log --oneline
+
+to revert the changes
+
+git revert commitid
+
+
+toreset the chnages
+
+git reset --hard commitid
+
+git checkout -b branch1 master to create btanch
+
+git checkout mast/branch1
+
+
+
+to merger
+
+git checkout master
+git merge branch1
+
+
+git checkout branch1 --> to move to new branch
+
+git commit -amend "messgae" 
+
+stashing  temporary park to staging area and then commit
+
+
+git stash
+git stash list
+
+git show stashid
+
+git stash pop stashid
+
+
+Rebasing
+
+cherry pick
+regflog command
+
+github.com
+
+git remote add origin url
+
+git push origin master
+
+git clone URL(REMOTE REPO)
+
+fetch command--> for fetching changes from remote repo
+
+
+https://github.com/sant066243/santp.git
+
+sant066243
+3/221premnagar
+
+git push origin master
+
+git clone URL (TO FETCH FROM REMOTE)
